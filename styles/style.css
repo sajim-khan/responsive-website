@@ -87,3 +87,59 @@ nav li{
     margin-bottom: 120px;
     border-radius: 15px;
 }
+
+/* ------------------------- Feature section Styles---------------- */
+
+.feature-section{
+    display: flex;
+    margin: 0px 150px;
+    height: 400px;
+
+}
+
+.team-images{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr) ;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    margin-top: -15px;
+}
+
+
+.feature-section > div {
+    flex: 1;
+}
+/* section right side */
+.feature-description{
+    margin: 150px 100px 250px 50px;
+}
+.feature-description h2{
+    font-weight: 700;
+    font-size: 45px;
+    width: 368px;
+    height: 106px;
+    line-height: 53px;
+    color: #131313;
+}
+.first-text{
+    font-weight: 500;
+    line-height: 53px;
+    color: #727272;
+}
+
+.last-text{
+    font-weight: 700;
+    line-height: 53px;
+    color: #FF900E;
+} 
+
+.feature-details{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    color: #727272;
+}
+.feature-description .button{
+    margin-top: 20px;
+}
