@@ -1,3 +1,89 @@
-.p{
-    color: rgb(188, 58, 58);
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+ /* --------------------- Header section style ---------------------- */
+
+nav{
+    display:flex; 
+    justify-content:space-between;
+
+}
+.nav-title{
+    margin-left:160px;
+    margin-top: 50px;
+    margin-bottom:0px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+}
+nav li{
+    list-style:none;
+    margin-left: 40px;
+    
+}
+.menu{    
+    display:flex;
+    justify-content:space-between;
+    margin-right: 170px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #424242;
+    text-align: center;    
+}
+
+/* -----------------------------  Banner-section style------------------ */
+
+.banner-section{
+    text-align: center;
+    background: rgba(255, 144, 14, 0.1);
+    margin-top:0px;
+}
+
+.banner-details{
+    Width: 700px;
+    Height:220px;
+    margin:0 250px;
+}
+
+.banner-title{
+    margin-top:0px;
+    margin-bottom:20px;
+    padding-top: 60px;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #131313;
+}
+
+.banner-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top:0px;
+    text-align: center;
+    color: #727272;
+}
+
+.button{
+    margin-top: 10px;
+    width: 180px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 10px;
+}
+
+/* banner image design */
+.banner-img{
+    margin-top: 160px;
+    width: 900px;
+    height: 450px;
+    margin-bottom: 120px;
+    border-radius: 15px;
 }
