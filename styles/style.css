@@ -94,6 +94,7 @@ nav li{
     display: flex;
     margin: 0px 150px;
     height: 400px;
+    padding-bottom: 400px;
 
 }
 
@@ -105,6 +106,10 @@ nav li{
     margin-top: -15px;
 }
 
+.team-images .img{
+    width:150px;
+    height:150px;
+}
 
 .feature-section > div {
     flex: 1;
@@ -142,4 +147,22 @@ nav li{
 }
 .feature-description .button{
     margin-top: 20px;
+}
+
+
+/* -------------- Third Section Style-------------------- */
+
+
+.third-feature-section{
+    display:flex;
+    column-gap: 50px;
+    margin: 0px 150px;
+}
+
+.third-feature-section > div{
+    flex: 1;
+}
+.third-feature-section .architect-img{
+    width: 400px;
+    height: 400px;
 }
