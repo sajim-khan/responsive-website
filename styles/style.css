@@ -1,7 +1,7 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
- /* --------------------- Header section style ---------------------- */
+ /* ---------------------    Header section style    ---------------------- */
 
 nav{
     display:flex; 
@@ -34,7 +34,7 @@ nav li{
     text-align: center;    
 }
 
-/* -----------------------------  Banner-section style------------------ */
+/* -----------------------------     Banner-section style   ------------------ */
 
 .banner-section{
     text-align: center;
@@ -95,7 +95,7 @@ nav li{
     border-radius: 15px;
 }
 
-/* ------------------------- Feature section Styles---------------- */
+/* -------------------------    Feature section Styles      ---------------- */
 
 .feature-section{
     display: grid;
@@ -164,12 +164,14 @@ nav li{
 }
 
 
-/* -------------- Third Section Style-------------------- */
+/* --------------   Third Section Style     -------------------- */
 
 
 .third-feature-section{
     display:flex;
     column-gap: 20px;
+    justify-content: center;
+    align-items: center;
     margin: 0px 80px 80px 140px;
 
 }
@@ -271,11 +273,6 @@ nav li{
     gap: 80px;
 }
 
-/* .fact-description>div{
-    border: 1px solid #FF900E;
-    align-items: start center;
-
-} */
 
 .fact-details{
     border: 1px solid #FF900E;
@@ -285,7 +282,7 @@ nav li{
     padding: 30px 20px ;
 }
 
-/*----------------------------- fact details  animation ---------------*/
+/*-----------------------------  Fact details  animation    ---------------*/
 .fact-details:hover{
     transform: rotate(360deg);
 }
@@ -326,3 +323,81 @@ nav li{
     margin-bottom: 10px;
  }
 
+/*------------------------  Sponsors section style   ------------------------*/
+
+ .sponsors-details{   
+     text-align: center;    
+}
+
+.sponsors-details h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    color: #131313;
+}
+
+.sponsors-paragraph{
+    margin-left: 400px; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    width: 542px;
+    height: 52px;
+}
+
+.sponsors-logo{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 60px 130px;
+    gap: 70px;
+    filter: grayscale(100%);
+}
+
+.sponsors-logo ,.spotify, .google, .amazon, .telerama, .figma{
+    width: 130px;
+    height: 40px;
+}
+
+/* --------------------------   My Plane Section  --------------------------------- */
+
+.my-plan {
+    margin: 100px 150px;
+}
+.my-skill h4{
+    margin: 17px 0px;
+  }
+  
+  .my-plan-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+  }
+  
+  .skills {
+    display: flex;
+    gap: 60px;
+  }
+  
+  .my-skill {
+    font-weight: 700;
+    font-size: 27px;
+    text-align: center;
+    color: #151414;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .aim {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 15px;
+    color: #737272;
+  }
+
+ /* ---------------------   Footer section style    ----------------------- */
