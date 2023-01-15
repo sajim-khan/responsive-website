@@ -405,11 +405,16 @@ nav li{
 .footer{
     width: 900px;
     height: 80px;
-    text-align: center;
     margin: 20px 200px 50px 150px;
     background: #FFF4E7;
     border-radius: 10px;
 }
 .footer p{
     padding-top: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #424242;
+
 }
