@@ -363,7 +363,7 @@ nav li{
 /* --------------------------   My Plane Section  --------------------------------- */
 
 .my-plan {
-    margin: 100px 150px;
+    margin: 80px 150px 50px 150px;
 }
 .my-skill h4{
     margin: 17px 0px;
@@ -401,3 +401,15 @@ nav li{
   }
 
  /* ---------------------   Footer section style    ----------------------- */
+
+.footer{
+    width: 900px;
+    height: 80px;
+    text-align: center;
+    margin: 20px 200px 50px 150px;
+    background: #FFF4E7;
+    border-radius: 10px;
+}
+.footer p{
+    padding-top: 30px;
+}
