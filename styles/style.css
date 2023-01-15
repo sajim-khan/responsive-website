@@ -77,6 +77,13 @@ nav li{
     color: #FFFFFF;
     background: #FF900E;
     border-radius: 10px;
+    transition: width 2s height 2s;
+}
+
+/* button animation */
+.button:hover{
+    width:220px;
+    height:100px;
 }
 
 /* banner image design */
@@ -164,14 +171,15 @@ nav li{
     display:flex;
     column-gap: 20px;
     margin: 0px 80px 80px 140px;
+
 }
 
 .third-feature-section>div{
     flex: 1;
 }
 .third-feature-section .architect-img{
-    width: 100%;
-    height: 100%;
+    width: 500px;
+    height: 800px;
 }
 .line{
     width: 5px;
@@ -229,9 +237,92 @@ nav li{
 
 /* architect button style */
 .arc-button{
-    width: 250px;
-    height: 130px;
+    width: 220px;
+    height: 120px;
     background: #FF900E;
     border-radius: 10px;
-    padding:40px;
+    padding:20px;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: -60px;
+    margin-top: -200px;
+    transition: width 1s;
+
 }
+
+.arc-button:hover{
+    width: 280px;
+}
+.last-text{
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+
+.fact-description{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 60px 150px;
+    gap: 80px;
+}
+
+/* .fact-description>div{
+    border: 1px solid #FF900E;
+    align-items: start center;
+
+} */
+
+.fact-details{
+    border: 1px solid #FF900E;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 2s;
+    padding: 30px 20px ;
+}
+
+/*----------------------------- fact details  animation ---------------*/
+.fact-details:hover{
+    transform: rotate(360deg);
+}
+
+.fact-title{
+    margin-left: 130px;
+
+}
+
+.fact-title h3{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom:20px;
+    line-height: 50px;
+    color: #131313;
+}
+
+.fact-title p{
+    width: 450px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+ .fact-details h3, h5{
+    margin: 0px;
+    margin-top:0px;
+    padding-bottom: 10px;
+ }
+
+ .fact-details h5{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 23px;
+    color: #727272;
+ }
+ .fact-details img{
+    margin-bottom: 10px;
+ }
+
