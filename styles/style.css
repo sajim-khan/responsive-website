@@ -15,7 +15,14 @@ nav{
     font-weight: 700;
     font-size: 40px;
     color: #131313;
+    transition: transform 2s; 
+
 }
+                /* animation */
+.nav-title:hover{
+    transform: scale(1.5);
+}
+
 nav li{
     list-style:none;
     margin-left: 40px;
@@ -31,7 +38,12 @@ nav li{
     font-size: 18px;
     line-height: 26px;
     color: #424242;
-    text-align: center;    
+    text-align: center;  
+    transition: transform 2s; 
+}    
+
+.menu>li:hover{
+    transform: scale(1.5);
 }
 
 /* -----------------------------     Banner-section style   ------------------ */
@@ -65,6 +77,7 @@ nav li{
     text-align: center;
     color: #727272;
 }
+
 
 .button{
     margin-top: 10px;
@@ -111,7 +124,13 @@ nav li{
     grid-row-gap: 10px;
     grid-column-gap: 10px;
     margin-top: -12px;
+    transition: transform 2s; 
+    
 }
+.team-images:hover{
+    transform: scale(1.2);
+}
+
 .feature-section>div {
     flex: 1;
 }
@@ -173,8 +192,8 @@ nav li{
     justify-content: center;
     align-items: center;
     margin: 0px 80px 80px 140px;
-
 }
+
 
 .third-feature-section>div{
     flex: 1;
@@ -282,7 +301,7 @@ nav li{
     padding: 30px 20px ;
 }
 
-/*-----------------------------  Fact details  animation    ---------------*/
+/*-----------------------------  Fact details  animation     ---------------*/
 .fact-details:hover{
     transform: rotate(360deg);
 }
@@ -353,7 +372,9 @@ nav li{
     margin: 60px 130px;
     gap: 70px;
     filter: grayscale(100%);
+    
 }
+
 
 .sponsors-logo ,.spotify, .google, .amazon, .telerama, .figma{
     width: 130px;
@@ -418,3 +439,5 @@ nav li{
     color: #424242;
 
 }
+
+
